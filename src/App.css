@@ -1,0 +1,13 @@
+.link {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #fff;
+  font-family: "Roboto Slab", serif;
+}
+
+.drawer_link {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: grey;
+  font-family: "Roboto Slab", serif;
+}

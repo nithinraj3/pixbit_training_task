@@ -1,0 +1,107 @@
+{/* <AppBar className={classes.mobile_nav}>
+          <Grid container>
+            <Grid item xs={12} className={classes.mobile_header1}>
+              <Typography
+                variant="h6"
+                component="h1"
+                className={classes.mobile_auth_title}
+              >
+                Admin Template
+              </Typography>
+              <IconButton
+                className={classes.mobile_icon}
+                edge="end"
+                aria-label="account of current user"
+                aria-controls={menuId}
+                aria-haspopup="true"
+                onClick={handleProfileMenuOpen}
+                color="inherit"
+              >
+                <AccountCircle />
+              </IconButton>
+            </Grid>
+            <Grid item xs={12} className={classes.mobile_header2}>
+              <Tabs
+                classes={{ indicator: classes.mobile_indicator }}
+                className={classes.mobile_menu}
+                value={value}
+                onChange={handleChange}
+                variant="fullWidth"
+                centered
+              >
+                <Tab
+                  className={classes.mobile_auth_link1}
+                  classes={{ wrapper: classes.mobile_wrapper }}
+                  component={NavLink}
+                  to="/"
+                  label="Home"
+                  disableRipple
+                />
+                <Tab
+                  className={classes.mobile_auth_link}
+                  classes={{ wrapper: classes.mobile_wrapper }}
+                  component={NavLink}
+                  to="/employees"
+                  label="Employees"
+                  disableRipple
+                />
+                <Tab
+                  className={classes.mobile_auth_link}
+                  classes={{ wrapper: classes.mobile_wrapper }}
+                  component={NavLink}
+                  to="/designations"
+                  label="Designations"
+                  disableRipple
+                />
+              </Tabs>
+            </Grid>
+          </Grid>
+        </AppBar> */}
+
+
+
+
+
+
+
+
+         {/* <List>
+          <NavLink
+            className="drawer_link"
+            exact
+            activeStyle={activeStyle}
+            to="/"
+            onClick={toggleDrawer(false)}
+          >
+            <ListItem button className={classes.list_item}>
+              <HomeIcon />
+              <Typography className={classes.link_text}>HOME</Typography>
+            </ListItem>
+          </NavLink>
+          <NavLink
+            className="drawer_link"
+            exact
+            activeStyle={activeStyle}
+            to="/employees"
+            onClick={toggleDrawer(false)}
+          >
+            <ListItem button className={classes.list_item}>
+              <PeopleIcon />
+              <Typography className={classes.link_text}>EMPLOYEES</Typography>
+            </ListItem>
+          </NavLink>
+          <NavLink
+            className="drawer_link"
+            exact
+            activeStyle={activeStyle}
+            to="/designations"
+            onClick={toggleDrawer(false)}
+          >
+            <ListItem button className={classes.list_item}>
+              <WorkIcon />
+              <Typography className={classes.link_text}>
+                DESIGNATIONS
+              </Typography>
+            </ListItem>
+          </NavLink>
+        </List> */}
