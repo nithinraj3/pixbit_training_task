@@ -169,6 +169,8 @@ export default function UserNavBar(props) {
 
   const activeStyle = {
     backgroundColor: "#311b92",
+    borderBottom: "1px solid #fff",
+    borderRadius: "2px",
     // boxShadow: "-1px 1px 9px 1px rgba(253,248,248,0.75) inset",
   };
 
