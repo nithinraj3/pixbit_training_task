@@ -321,7 +321,7 @@ export default function List() {
               hideFooterSelectedRowCount
               pageSize={pageSize}
               onPageSizeChange={(newPageSize) => setPageSize(newPageSize)}
-              rowsPerPageOptions={[5, 10, 20]}
+              rowsPerPageOptions={[5, 10, 25, 100]}
               components={{
                 LoadingOverlay: CustomLoadingOverlay,
               }}

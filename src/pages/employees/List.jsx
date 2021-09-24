@@ -256,7 +256,7 @@ export default function List() {
       field: "email",
       headerName: "Email",
       headerAlign: "left",
-      width: 200,
+      width: 250,
       align: "left",
     },
     {
@@ -360,7 +360,7 @@ export default function List() {
             hideFooterSelectedRowCount
             pageSize={pageSize}
             onPageSizeChange={(newPageSize) => setPageSize(newPageSize)}
-            rowsPerPageOptions={[5, 10, 20]}
+            rowsPerPageOptions={[5, 10, 25, 100]}
             components={{
               LoadingOverlay: CustomLoadingOverlay,
             }}

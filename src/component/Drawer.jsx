@@ -93,11 +93,11 @@ export default function Drawer(props) {
 
   const [downArrow, setDownArrow] = useState(true);
 
-  const handleDownArrow = () => {
+  const handleDownwardArrow = () => {
     setDownArrow(false);
   };
 
-  const handleUpArrow = () => {
+  const handleUpwardArrow = () => {
     setDownArrow(true);
   };
 
@@ -121,11 +121,11 @@ export default function Drawer(props) {
           />
           {downArrow ? (
             <ListItemAvatar className={classes.arrow}>
-              <ExpandMoreIcon onClick={handleDownArrow} />
+              <ExpandMoreIcon onClick={handleDownwardArrow} />
             </ListItemAvatar>
           ) : (
             <ListItemAvatar className={classes.arrow}>
-              <ExpandLessIcon onClick={handleUpArrow} />
+              <ExpandLessIcon onClick={handleUpwardArrow} />
             </ListItemAvatar>
           )}
         </ListItem>

@@ -130,11 +130,7 @@ const Create = () => {
           <Form className={classes.form} autoComplete="off">
             <Grid container>
               <Grid item xs={12}>
-                <TextField
-                  autoFocus
-                  name="designation_name"
-                  label="Designation Name"
-                />
+                <TextField name="designation_name" label="Designation Name" />
               </Grid>
             </Grid>
             <Grid container alignItems="center" justifyContent="flex-start">
